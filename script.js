@@ -1,23 +1,24 @@
 function login() {
 
     const password =
-    document.getElementById("password").value;
+        document.getElementById("password").value;
 
-    if(password === "ApprezzateLoSforzo:)"){
+    if(password === "ApprezzateLoSforzo:)") {
 
-        document
-        .getElementById("password-screen")
-        .style.display = "none";
+        localStorage.setItem("loggedIn", "true");
 
         document
-        .getElementById("site-content")
-        .classList.remove("hidden");
-
-    }else{
+            .getElementById("password-screen")
+            .style.display = "none";
 
         document
-        .getElementById("error")
-        .innerText =
-        "Incorrect password";
+            .getElementById("site-content")
+            .classList.remove("hidden");
+
+    } else {
+
+        document
+            .getElementById("error")
+            .innerText = "Incorrect password";
     }
 }
