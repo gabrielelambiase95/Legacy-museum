@@ -39,5 +39,5 @@ function logout() {
 
     localStorage.removeItem("loggedIn");
 
-    location.reload();
+    window.location.href = "index.html";
 }
