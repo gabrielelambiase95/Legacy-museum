@@ -3,7 +3,7 @@ function login() {
     const password =
     document.getElementById("password").value;
 
-    if(password === "LEGACY2055"){
+    if(password === "ApprezzateLoSforzo:)"){
 
         document
         .getElementById("password-screen")
