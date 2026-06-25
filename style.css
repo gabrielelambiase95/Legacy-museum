@@ -185,3 +185,26 @@ body{
 
     cursor:pointer;
 }
+
+.cta-button{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:18px 50px;
+
+    border:none;
+
+    border-radius:14px;
+
+    font-size:1.1rem;
+
+    background:#00c3ff;
+
+    color:white;
+
+    text-decoration:none;
+
+    cursor:pointer;
+}
